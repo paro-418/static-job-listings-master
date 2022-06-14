@@ -1,0 +1,19 @@
+.searchKeyword{
+    background-color: #eef6f6;
+    color: #5ba4a4;
+    font-weight: 600;
+    height: fit-content;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    padding-left: 0.5rem;
+}
+.btn{
+    display: inline-block;
+    background-color: #5ba4a4;
+    padding: 0.3rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.btn:hover{
+    background-color: #000;
+}

@@ -1,0 +1,44 @@
+.searchBar{
+    width: 70%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: fit-content;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.144);
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    /* border: 2px solid red; */
+    display: flex;
+    position: relative;
+}
+
+.keywordContainer{
+    display: flex;
+    justify-content: start;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    width: 93.5%;
+}
+
+.btn{
+    /* border: 2px solid red; */
+    width: 5%;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    position: absolute;
+    right: 0.8rem;
+    top: 50%;
+    border: none;
+    background-color: transparent;
+    transform: translateY(-50%);
+    color:  #7b8e8e;
+}
+
+.btn:hover{
+    color: #5ba4a4;
+    cursor: pointer;
+}
